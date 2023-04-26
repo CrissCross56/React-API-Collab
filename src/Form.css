@@ -1,0 +1,25 @@
+.userWrite{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#crudNav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.crudChoice:hover{
+    background-color: black;
+    color: white;
+}
+.crudChoice{
+    display: inline;
+    padding:10px;
+}
+
+#submissionForm{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    row-gap: 1px;
+}
